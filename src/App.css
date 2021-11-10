@@ -1,0 +1,37 @@
+.App {
+  text-align: center;
+  background: linear-gradient(70deg, #1d3988,60%, black);
+  height: 100vh;
+}
+.colorNav{
+  background-color: #1d3988 !important;
+}
+button.search{
+  border-radius: 50%;
+  width: 40px !important;
+  height: 40px;
+  color: #1d3988;
+  margin-top: 0px;
+  border-style: none;
+}
+.inpt{
+  border-radius: 50px;
+}
+.user{
+  margin-left: 5px;
+}
+.btn_laguageb{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.spinner{
+  margin: auto;
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+@media only screen and (min-width: 360px) and (max-width: 459px){
+  .inpt {
+    max-width: 6.5em;
+  }
+}
